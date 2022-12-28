@@ -3,6 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/loccar_style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Location voitures</title>
@@ -49,24 +50,19 @@
 
 		?>
 		
-	</div><br>
-	<br>
-	<br/>
+	</div><br/>
+	
 	
 				<!-- creation du footer -->
-<footer id="footer">
-	<div id="inner-footer">
-		<div class="socials-links">
-		<li><img src="assets/images/ajouter.png"/><a href="">Facebook<i></i></a></li>
-		<li><img src="assets/images/ajouter.png"/><a href="">Tweter<i></i></a></li>
-		<li><img src="assets/images/ajouter.png"/><a href=""><i>linkid</i></a></li>
-		<li><img src="assets/images/ajouter.png"/><a href="">intagram<i></i></a></li>
-		</div>
-	</div>
-	<div class="out-footer">
+<div id="footer">
+	
+		
+		<img src="assets/images/ajouter.png"/><a href="">Facebook<i></i></a><br/>
+			
+		<div class="out-footer">
 		<p class="">Copyright &copy; The Batoula Concept <?php echo date("Y"); ?></p>													
 	</div>
-</footer>
+</div>
 
 
 </body>
